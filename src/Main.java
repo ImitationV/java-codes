@@ -1,3 +1,4 @@
+import javax.print.attribute.standard.PrinterMakeAndModel;
 import java.sql.SQLOutput;
 
 public class Main {
@@ -17,11 +18,20 @@ public class Main {
         // 03
         System.out.println("[*Program] Username: ");
         UsernameGenerator ug = new UsernameGenerator();
-        ug.generateUsername();
+        //ug.generateUsername();
 
         // 04
         System.out.println("[*Program] Distance between coordinates: ");
+        DistanceBetweenCoOrds dbc = new DistanceBetweenCoOrds();
+        //dbc.findDistanceOfCoordinates();
 
+        // 07
+        System.out.println("[*Program] Random sin/cos/tan values: ");
+        SinCosTanRandomValue sct = new SinCosTanRandomValue();
+        //sct.randTriginometricVal();
+
+        // 08
+        System.out.println("[*Program] Volume and Area of Cylinder: ");
 
 
         //TODO: Create a while loop to ask user which one to run
