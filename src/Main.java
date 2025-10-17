@@ -67,7 +67,8 @@ public class Main {
 
         // 16
         System.out.println("[*Program 16] Rock Paper Scissors");
-
+        RockPaperScissors rps = new RockPaperScissors();
+        rps.runRPS();
 
 
 
