@@ -46,31 +46,48 @@ public class Main {
 
         // 12
         System.out.println("[*Program 12] Dog Class: ");
-        Dog dog = new Dog("Vaau",3);
+        Dog dog = new Dog("Vaau", 3);
         System.out.println(dog);
-        System.out.println("Age in human years: "+dog.ageInHumanYears());
+        System.out.println("Age in human years: " + dog.ageInHumanYears());
 
         // 13
         System.out.println("[*Program 13] Car Class: ");
-        Car car = new Car("Ford", "Escape",2012);
+        Car car = new Car("Ford", "Escape", 2012);
         System.out.println(car);
 
         // 14
         System.out.println("[*Program 14] Book Class: ");
-        Book book = new Book("Harry Potter","October 16, 1998","Penguin Publishers","JK Rowling");
+        Book book = new Book("Harry Potter", "October 16, 1998", "Penguin Publishers", "JK Rowling");
         System.out.println(book);
 
         // 15
         System.out.println("[*Program 15] Flight Class");
-        Flight flight = new Flight("Delta","JFK","DHK", 2441139);
+        Flight flight = new Flight("Delta", "JFK", "DHK", 2441139);
         System.out.println(flight);
 
         // 16
         System.out.println("[*Program 16] Rock Paper Scissors");
         RockPaperScissors rps = new RockPaperScissors();
-        rps.runRPS();
+        //rps.runRPS();
 
+        // 18
+        System.out.println("[*Program 18] Drivers License Exam Grader");
+        DriversLicenseExam dx = new DriversLicenseExam();
+        //dx.startChecking();
 
+        // 21
+        System.out.println("[*Program 18] Factorial");
+        Factorial fact = new Factorial();
+        System.out.println("Factorial of 8 is: " + fact.fact(8));
+
+        // 22
+        System.out.println("[*Program 18] Fizzbuzz");
+        FizzBuzz fb = new FizzBuzz();
+        //fb.findFizzBuzzRecursion(30);
+
+        // 23
+        System.out.println("[*Program 18] Lo Shu Magic Square");
+        LoShuMagicSquare magicSquare = new LoShuMagicSquare();
 
 
         //TODO: Create a while loop to ask user which one to run
